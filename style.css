@@ -1,3 +1,44 @@
+:root{
+    --red:#dc3545;
+}
+
+/* .navbar{
+    position: fixed;
+    display: flex;
+
+    top: 0;
+} */
+
+
 .nav-item a{
     color: gray;
+}
+
+/*! -------------- 2- CAROUSEL ------------------- */
+
+.carousel img{
+    /* max-height: calc(100vh - 205px)!important ; */
+    height:100% ;
+    display: block;
+}
+.services{
+    border-radius: 10px;
+    text-decoration: none;
+}
+.carousel title{
+    color: purple!important;
+}
+.carousel{
+    align-items: center;
+    color: #80197F;
+}
+/* -------------------------------------------------------------------------- */
+/*                                  Services                                  */
+/* -------------------------------------------------------------------------- */
+.services-icons i{
+    width: 150px;
+    height: 150px;
+    background-color: var(--red);
+    border-radius: 50%;
+    font-size: 5rem;
 }
